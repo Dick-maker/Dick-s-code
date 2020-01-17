@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
+    <title>京东导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #navi {
+            width: 1210px;
+            height: 40px;
+            margin: 10px auto;
+            background: #e64346;
+        }
+
+        #all_cate,
+        #navi_main {
+            float: left;
+        }
+
+        #all_cate {
+            width: 210px;
+        }
+
+        #cate_title {
+            background: #cd2a2c;
+            color: #fff;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 40px;
+            height: 40px;
+            padding-left: 20px;
+        }
+
+        #cate_title a {
+            color: #fff;
+            text-decoration: none;
+            float: left;
+        }
+
+        #cate_title a:hover {
+            text-decoration: underline;
+        }
+
+        #cate_title i {
+            float: right;
+            width: 20px;
+            height: 20px;
+            background: url(up_2.jpg) no-repeat -65px 0;
+            margin-top: 10px;
+        }
+
+        #cate_main {
+            width: 203px;
+            height: 402px;
+            padding: 4px 3px 3px 0;
+            background: #fafafa;
+            border: 2px solid #e4393c;
+            border-top: none;
+            position: absolute;
+        }
+
+        .cate_line h3 {
+            font-size: 14px;
+            color: #333;
+            width: 186px;
+            height: 28px;
+            border-bottom: 1px solid #fff;
+            padding-left: 13px;
+            line-height: 28px;
+            font-weight:normal;
+            z-index: 3;
+
+        }
+
+        .cate_line h3 :hover {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            background: #fff;
+            width: 186px;
+        }
+
+        .cate_line a {
+            color: #333;
+            text-decoration: none;
+        }
+        #cate_line span{
+            margin-right: 4px;
+        }
+
+        #sub_cate {
+            position: absolute;
+            width: 705px;
+            height: 300px;
+            border: 1px solid rgb(184, 73, 73);
+            background: #fff;
+            box-shadow: 0px 1px 3px 1px #ddd;
+            top: 3px;
+            left: 198px;
+        }
+
+        #navi_main li {
+            width: 83px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            float: left;
+        }
+
+        #navi_main li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #navi_main li a:hover {
+            background: #bd2a2c;
+        }
+
+        .x{
+            position: absolute;
+            left: 706px;
+            width: 26px;
+            height: 26px;
+            background: #555;
+            color: #fff;
+            font-size: 26px;
+            text-align: center;
+            line-height: 26px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="navi">
+        <div id="all_cate">
+            <div id="cate_title"><a href="#">全部商品分类</a></div>
+            
+            <div id="cate_main">
+                <div class="cate_line">
+                    <h3>
+                        <li><a href="#">图书</a>
+                        <span>/</span>
+                        <a href="#">音像</a>
+                        <span>/</span>
+                        <a href="#">数字商品</a></li>
+                    </h3>
+                    <div class="sub_cate">
+                        <div class="x">X</div>
+                    </div>
+                    <h3>
+                        <li><a href="#">家用电器</a></li>
+                        
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div id="navi_main">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">食品</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">夺宝岛</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">金融</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
